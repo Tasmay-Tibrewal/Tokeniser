@@ -11,6 +11,8 @@ size_categories:
 
 # Tokenizer
 
+**Imp Links: [PyPI Main Library (tokeniser-py)](https://pypi.org/project/tokeniser-py/) | [PyPI Lite Library (tokeniser-py-lite)](https://pypi.org/project/tokeniser-py-lite/) | [Main Library GitHub (tokeniser-py)](https://github.com/Tasmay-Tibrewal/tokeniser-py) | [Lite Library GitHub (tokeniser-py-lite)](https://github.com/Tasmay-Tibrewal/tokeniser-py-lite) | [Demo (HF Spaces)](https://huggingface.co/spaces/Tasmay-Tib/Tokeniser-py) | [Complete repo (unchunked) - HF](https://huggingface.co/datasets/Tasmay-Tib/Tokeniser) | [Imp Files Github](https://github.com/Tasmay-Tibrewal/Tokeniser-imp)**
+
 This is a tokeniser created on a custom-written algorithm on a huge vocabulary of `~1B` tokens. These tokens are given in the files (such that they are `<2GB` each, making them trackable by Git LFS). The text corpus is from the `SlimPajama` dataset by cerebras and consists of the whole text and validation corpus.
 The final tokeniser is available in two versions (`0.5B` version - Val. data only and `1B` version - Val data + Test data, created using the same algo).
 The files includes the token counts, the text corpus used, individual lines/paras from SlimPajama as a list JSON, ordered tokeniser with token ids (in order of their counts), unordered tokeniser  with token ids.
